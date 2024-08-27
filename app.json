@@ -2,7 +2,7 @@
   "expo": {
     "name": "rockpaper",
     "slug": "rockpaper",
-    "version": "1.0.0",
+    "version": "1.2.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -18,10 +18,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.ogheneagba.rockpaper"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "ccc61f8a-291d-4b5f-97c3-f0af042096bf"
+      }
     }
   }
 }
